@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>decodificador</title>
+    <link rel="stylesheet" href="./estilo/style.css">
+   <link rel="shortcut icon" href="./imagens/Frame 6.png" type="image/x-icon">
+</head>
+<body>
+
+    <main class="main container">
+        <header class="cabecalho">
+            <img src="./imagens/Frame 6.png" alt="imagem da alura">
+            <h1> Mensagens codificadas</h1>
+        </header>
+        <div class="container-input">
+            <div class="input" >
+                <textarea id="input-texto" placeholder="digite seu texto aqui..." ></textarea>
+
+                <p> ATENÇÃO APENAS LETRAS maiúscula E SEM ACENTO. </p>
+            </div>
+            <div id="output">
+                <img src="./imagens/boneco.svg" alt="boneco">
+                <h2>sua mensagem aparecerá aqui,</h2>
+                <span id="texto-final">Sua mensagem criptografada aparecerá aqui</span>
+            </div>
+            </button>
+            </div>
+            <div class="buttons">
+                <div class="container-bnt" >
+                <button onclick="criptografar()" class="bnt-criptografar"> criptografar</button>
+                <button onclick="descriptografar()" class="bnt-descriptografar"> descriptografar</button>
+             </div>
+            </div>
+
+    </main>
+    <footer class="rodape">
+        <div class="icons">
+        <a  href=""><ion-icon name="logo-github"></ion-icon></a>
+        <a href=""><ion-icon name="logo-linkedin"></ion-icon></a>
+         </div>
+         <h3> Desenvolvido por Gustavo </h3>
+    </footer>
+    <script src="./interaçao/javascript.js">  </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
